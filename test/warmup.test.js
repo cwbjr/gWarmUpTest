@@ -6,5 +6,8 @@ describe("function", function() {
         it("should add two numbers", function() {
             assert.equal(index.addTwoNums(2, 2), 4);
         });
+        it("should take in at least one parameter", function() {
+            // assert.deepEqual(index.addTwoNums(num), );
+        });
     });
 });
